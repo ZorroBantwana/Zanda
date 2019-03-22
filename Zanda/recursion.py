@@ -6,6 +6,10 @@ def sum_array(array):
     return sum_1
 
 def fibonacci(n):
+    """
+    the Fibonacci sequenceis characterized by the fact that every number 
+    after the first two is the sum of the two preceding ones        
+    """
     if n <= 1:
         return n
     return fibonacci(n - 2) + fibonacci(n - 1)
