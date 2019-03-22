@@ -10,7 +10,7 @@ def bubble_sort(items):
 
     return out
 
-    def merge_sort(items):
+def merge_sort(items):
 
     '''Return array of items, sorted in ascending order'''
 
